@@ -1,23 +1,37 @@
-How to run the GYM  Management System Project Using PHP and MySQL
-1.Download the zip file
+# Gym Management System
 
-2.Extract the file and copy gym folder
+The **Gym Management System** is a web-based platform built using PHP and MySQL. It is designed to manage gym operations efficiently, such as member registration, class scheduling, attendance tracking, and payment processing.
 
-3.Paste inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
+## Features
+- **Member Management**: Register and update gym member profiles.
+- **Class Scheduling**: Book and manage fitness classes.
+- **Attendance Tracking**: Track member attendance and participation.
+- **Payment Processing**: Handle gym membership fees and subscriptions.
+- **Admin and Employer Login**: Separate login credentials for admin and employer access.
+- **Report Generation**: Generate reports on membership growth and gym activity.
 
-4.Open PHPMyAdmin (http://localhost/phpmyadmin)
+## How to Run the Project
+1. **Download** the zip file.
+2. **Extract** the file and copy the `gym` folder.
+3. **Paste** it inside your root directory (for XAMPP: `xampp/htdocs`, for WAMP: `wamp/www`, for LAMP: `var/www/html`).
+4. Open **PHPMyAdmin** (`http://localhost/phpmyadmin`).
+5. **Create a database** with the name `gymdb`.
+6. **Import** the `gymdb.sql` file (located inside the `SQL file` folder in the zip package).
+7. Run the script in your browser: `http://localhost/gym`.
 
-5.Create a database with name gymdb
+## Admin Credentials
+- **Username**: admin@gmail.com
+- **Password**: Test@12345
 
-6.Import gymdb.sql file(given inside the zip package in SQL file folder)
+## Employer Credentials
+- **Username**: john@test.com
+- **Password**: Test@123  
+  _Or register a new user._
 
-7.Run the script http://localhost/gym
+## Technologies Used
+- **Backend**: PHP
+- **Database**: MySQL
+- **Frontend**: HTML, CSS, JavaScript
 
-Admin Credential
-Username: admin@gmail.com
-Password: Test@12345
-
-Employer Credential
-Username: john@test.com
-Password: Test@123
-or Register a new user
+## License
+This project is licensed under the MIT License.
